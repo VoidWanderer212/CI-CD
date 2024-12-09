@@ -1,7 +1,2 @@
 def hello_world():
-    return "Hello, CI/dc Test!"
-
-if __name__ == "__main__":
-    print(hello_world())
-
-# Test modification to trigger commit
+    return "Hello, CI/CD Test!"  # Ensure you save the changes
