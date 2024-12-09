@@ -18,6 +18,11 @@ jobs:
         with:
           python-version: '3.9'
 
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
       - name: Run tests
         run: python -m unittest discover
 
@@ -26,4 +31,3 @@ jobs:
           WEBEX_TOKEN: ${{ secrets.WEBEX_TOKEN }}
           ROOM_ID: ${{ secrets.ROOM_ID }}
         run: python notify_webex.py
-
