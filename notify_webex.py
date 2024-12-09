@@ -1,5 +1,5 @@
 import requests
-import o
+import os
 
 # Environment variables for security
 WEBEX_TOKEN = os.getenv("WEBEX_TOKEN")  # Replace with your WebEx bot token
