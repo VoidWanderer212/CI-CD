@@ -28,6 +28,7 @@ jobs:
 
       - name: Send WebEx notification
         env:
-          WEBEX_TOKEN: ${{ secrets.WEBEX_TOKEN }}
-          ROOM_ID: ${{ secrets.ROOM_ID }}
+          WEBEX_TOKEN: ZGM2ZTJjOGItYWQxOS00ODY3LWE4OGItYWFiMzBjZjZmYzcwMGRlOTBkYjAtZTFl_P0A1_18df2bf4-66a3-4793-b661-314dcbe95852
+          ROOM_ID: a58cfa40-b5e6-11ef-bf09-6910fd7587cf
+
         run: python notify_webex.py
