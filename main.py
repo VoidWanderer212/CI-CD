@@ -1,1 +1,6 @@
-print('Hello, CI/CD'/home/devasc/labs/devnet-src/python/personal-info.py' )
+def hello_world():
+    return "Hello, CI/CD Test!"
+
+if __name__ == "__main__":
+    print(hello_world())
+
