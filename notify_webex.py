@@ -2,8 +2,8 @@ import requests
 import os
 
 # Environment variables for security
-WEBEX_TOKEN = os.getenv("WEBEX_TOKEN")  # Replace with your WebEx bot token
-ROOM_ID = os.getenv("ROOM_ID")          # Replace with your WebEx Room ID
+WEBEX_TOKEN = os.getenv("ZGM2ZTJjOGItYWQxOS00ODY3LWE4OGItYWFiMzBjZjZmYzcwMGRlOTBkYjAtZTFl_P0A1_18df2bf4-66a3-4793-b661-314dcbe95852")  # Replace with your WebEx bot token
+ROOM_ID = os.getenv("a58cfa40-b5e6-11ef-bf09-6910fd7587cf")          # Replace with your WebEx Room ID
 
 def send_webex_notification(message):
     """
